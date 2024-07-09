@@ -3,6 +3,10 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.color1{
+    color: #0D1321;
+}
 .front-page{
     background-image: url("../assets/Hero-bg.png");
     max-width: 1440px;
@@ -43,29 +47,71 @@
     margin-bottom: 45px;
 }
 
-.main-body{
-    margin: 74px 152px 90px 148px;
-    background-color: rgba(13, 19, 33, 0.02);;
+.btn-common{
+    width: 171px;
+    height: 47px;
+    border: 1px solid #0D1321;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.title{
+/* .btn-secondary{
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    padding: 12px 20px;
+} */
+
+.second-page{
+    /* width: 1140px;
+    height: 1393px; */
+    margin: 74px 152px 88px 148px;
+    padding: 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.page-title{
     width: 852px;
     height: 37px;
     font-size: 32px;
-    font-weight: 900;
-    color: #0D1321;
+    font-weight: 800;
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 24px;
 }
 
-.why-web{
-    text-align: center;
-}
-
-.title-description{
-    width: 852px;
-    height: 52px;
+.page-title-description{
     font-size: 16px;
     font-weight: 400;
-    color: #0D1321;
+    margin-bottom: 48px;
+    text-align: center;
 }
+
+
+.second-page-first{
+    justify-content: space-between;
+    display: flex;
+}
+
+.second-page-common-title{
+    font-size: 24px;
+    font-weight: bold;
+} 
+
+.common-title-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.second-page-second{
+    display: flex;
+}
+.second-page-third{
+    display: flex;
+}
+
 
