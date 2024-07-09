@@ -56,16 +56,6 @@
     font-weight: 700;
 }
 
-/* .btn-secondary{
-    width: 171px;
-    height: 47px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #0D1321;
-    border: 1px solid #0D1321;
-    padding: 12px 20px;
-} */
-
 .second-page{
     /* width: 1140px;
     height: 1393px; */
@@ -108,10 +98,25 @@
 }
 
 .second-page-second{
+
     display: flex;
+    justify-content: space-between;
 }
 .second-page-third{
     display: flex;
+    justify-content: space-between;
+}
+
+.inspiration-page{
+    padding-left: 144px;
+    padding-right: 144px;
+    text-align: center;
+    margin: 88px 150px 150px 150px;
+}
+
+.inspiration-page-video{
+    
+    text-align: center;
 }
 
 
