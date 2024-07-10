@@ -14,6 +14,11 @@ main{
     margin: 0 auto;
 }
 
+/* footer{
+    max-width: 1140px;
+    margin: 0 auto;
+} */
+
 .color1{
     color: #0D1321;
 }
@@ -21,26 +26,48 @@ main{
 .color2{
     color: rgba(13, 19, 33, 0.7); 
 }
+
+.color3{
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.navigation{
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-owner{
+    margin-top: 49px;
+    margin-bottom: 49px;
+    margin-left: 150px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.navigation-btn{
+    margin-top: 36px;
+    margin: 150px;
+    margin: 36px;
+    border-radius: 8px;
+    width: 244px;
+    height: 57px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .front-page{
     background-image: url("../assets/Hero-bg.png");
-    /* max-width: 1440px;
-    height: 652;
-    margin-top: 157px; */
     padding: 26px 221px 45px 221px;
     text-align: center;
 }
 
 .header-title{
-    /* width: 998px;
-    height: 136px; */
     font-size: 48px;
     font-weight: 900;
     color: #0D1321;
 }
 
 .header-title-description{
-    /* width: 852px;
-    height: 52px; */
     font-size: 400;
     font-weight: 16px;
     padding-bottom: 32px;
@@ -48,9 +75,6 @@ main{
 }
 
 .header-quotes{
-    /* width: 998px;
-    height: 212px;
-    margin: 32px 221px; */
     padding-bottom: 24px;
     text-align: center;
 }
@@ -74,30 +98,22 @@ main{
 }
 
 .second-page{
-    /* width: 1140px;
-    height: 1393px; */
     margin: 74px 152px 88px 148px;
     padding: 80px 97px;
     background-color: rgba(13, 19, 33, 0.02);
 }
 
 .page-title{
-    /* width: 852px;
-    height: 37px; */
     font-size: 32px;
     font-weight: 800;
     text-align: center;
-    /* margin-top: 80px;
-    margin-bottom: 24px; */
 }
 
 .page-title-description{
     font-size: 16px;
     font-weight: 400;
-    /* margin-bottom: 48px; */
     text-align: center;
 }
-
 
 .second-page-first{
     justify-content: space-between;
@@ -127,32 +143,55 @@ main{
 .inspiration-page{
     padding-left: 144px;
     padding-right: 144px;
+    padding-bottom: 48px;
     text-align: center;
-    /* margin: 88px 150px 150px 150px; */
 }
 
 .inspiration-page-video{
-    
-    /* height: 614px;
-    margin: 0px auto; */
+    padding: 32px;
     border-radius: 16px;
-    border: 1px solid black;
-    /* border-style: none; */
-    text-align: center;
+    background-color: rgba(13, 19, 33, 0.2);
+    border-style: none;
+    
 }
 
 .target-skills{
-    /* margin: 150px 150px 150px 50px;
-    padding: auto; */
-    text-align: center; 
+    margin: 150px 150px 150px 50px;
+    text-align: center;
 }
 
 .target-skill-names{
     display: flex;
+    gap: 24px;
+    text-align: left;
+}
+
+.skill-description{
+    padding: 40px;
+}
+.html-info{
+    border-style: none;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css-info{
+    border-style: none;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05) ;
+}
+
+.javascript-info{
+    border-style: none;
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
 }
 
 .learn-more-second{
-    text-decoration: none;
+    color: #0D1321;
 }
-
+.learn-more-second-font{
+    font-size: 16px;
+    font-weight: bold;
+}
 
