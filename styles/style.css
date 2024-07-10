@@ -14,10 +14,6 @@ main{
     margin: 0 auto;
 }
 
-/* footer{
-    max-width: 1140px;
-    margin: 0 auto;
-} */
 
 .color1{
     color: #0D1321;
@@ -246,7 +242,7 @@ main{
 
   .feedback {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     margin:0px 180px;
     margin-top: 40px;
   }
